@@ -1,0 +1,39 @@
+%% Button Mapping for Xbox One Gamepad
+%
+% LTC Steve Crews steven.crews@westpoint.edu
+% 24 Jan 2021
+%
+
+% BUTTONS - logical 0 or 1 
+% ( b = button(joy,n) )
+% b = 0 (button not depressed)
+% b = 1 (button depressed)
+% 
+% 1 - A 
+% 2 - B
+% 3 - X
+% 4 - Y
+% 5 - LB (left button)
+% 6 - RB (right button)
+% 7 - View (double rectangle button)
+% 8 - Menu (three lines button)
+% 9 - LS (left stick - IN)
+% 10 - RS (right stick - IN)
+
+% According to button(joy,[1:16]), the following buttons exist, but I'm not sure which they are. 
+% 11 - 
+% 12 - 
+% 13 - 
+% 14 - 
+% 15 - 
+% 16 - 
+
+% AXES - range ( -1 to 1 )  
+% ( a = axis(joy,n) )
+% 
+% 1 - left stick , left (-1) / right (1)
+% 2 - left stick , up (-1)   / down (1)
+% 3 - left trigger , out (0) / in (1)
+% 3 - right trigger , out (0) / in (-1)
+% 4 - right stick , left (-1) / right (1)
+% 5 - right stick , up (-1)   / down (1)

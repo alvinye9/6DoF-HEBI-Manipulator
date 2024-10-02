@@ -1,0 +1,9 @@
+# ignore logs directory
+logs/
+
+# ignore pycache
+__pycache__/
+*.pyc
+
+# ignore local testing files
+fonts.py
